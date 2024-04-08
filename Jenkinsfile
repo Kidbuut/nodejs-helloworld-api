@@ -32,12 +32,4 @@ pipeline {
             }
         }
     }
-    post {
-        // Notifica por correo electrónico en caso de fallo en alguna etapa del pipeline
-        failure {
-            mail to: 'tu@email.com',
-                 subject: 'Fallo en el pipeline de Jenkins',
-                 body: "El pipeline de Jenkins ha fallado en el job '${env.JOB_NAME}'"
-        }
-    }
 }
