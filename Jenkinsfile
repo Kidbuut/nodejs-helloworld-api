@@ -7,7 +7,7 @@ pipeline {
                 // Ejecuta el comando npm install para instalar las dependencias
                 script {
                     // Usa un shell compatible con versiones antiguas de Node.js
-                    sh 'npm install --no-update-notifier'
+                    sh 'npm install'
                 }
             }
         }
