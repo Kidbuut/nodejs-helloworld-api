@@ -5,14 +5,20 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Ejecuta el comando npm install para instalar las dependencias
-                sh 'npm install'
+                script {
+                    // Usa un shell compatible con versiones antiguas de Node.js
+                    sh 'npm install --no-update-notifier'
+                }
             }
         }
         
         stage('Test') {
             steps {
                 // Ejecuta el comando npm test para ejecutar las pruebas
-                sh 'npm test'
+                script {
+                    // Usa un shell compatible con versiones antiguas de Node.js
+                    sh 'npm test --no-update-notifier'
+                }
             }
         }
     }
