@@ -6,7 +6,7 @@ pipeline {
                 // Clona el repositorio de Git donde está tu código fuente
                 git 'https://github.com/Kidbuut/nodejs-helloworld-api.git'
             }
-            #hola
+           
         }
         stage('Install dependencies') {
             steps {
