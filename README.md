@@ -31,9 +31,14 @@ curl http://localhost:3000
 ```
 # CI/CD
 
-## Comenzamos instalando dependecias npm
+### Comenzamos instalando dependecias npm
 
-## Instalamos Ngrok y ejecutamos el siguiente comando para que tenga salida por el puerto 80 
+### Instalamos Ngrok y ejecutamos el siguiente comando para que tenga salida por el puerto 80 
 ```bash
 ngrok http http//localhost:8080
 ```
+
+### Una vez corrido deberia mostrarnos por la terminar algo similar a esto 
+![image](https://github.com/Kidbuut/nodejs-helloworld-api/assets/120615998/2650903d-1c7c-4388-b4ae-b1edea8efa28)
+
+###
