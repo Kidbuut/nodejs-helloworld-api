@@ -29,3 +29,11 @@ npm start
 ```bash
 curl http://localhost:3000
 ```
+# CI/CD
+
+## Comenzamos instalando dependecias npm
+
+## Instalamos Ngrok y ejecutamos el siguiente comando para que tenga salida por el puerto 80 
+```bash
+ngrok http http//localhost:8080
+```
