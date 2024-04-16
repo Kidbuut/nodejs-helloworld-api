@@ -51,7 +51,18 @@ ngrok http http//localhost:8080
 ### Una vez ahi tenemos que crear un nuevo Webhook 
 ![image](https://github.com/Kidbuut/nodejs-helloworld-api/assets/120615998/07462c41-ff1b-4957-90e4-b2186b6328f7)
 
+### El siguiente paso sera configurar Tools en Jenkins 
+![image](https://github.com/Kidbuut/nodejs-helloworld-api/assets/120615998/28a7783b-f7c2-4913-8390-f5daa728e57c)
 
+### Verificar que la version del nodejs instalada en tu VM sea la misma configurada, esto lo hacemos con el siguiente comando 
+```bash
+node -v
+```
+![image](https://github.com/Kidbuut/nodejs-helloworld-api/assets/120615998/11a0847c-9fb7-42ba-b3ed-1f2cb14c2f68)
 
+![image](https://github.com/Kidbuut/nodejs-helloworld-api/assets/120615998/84fac77e-1388-4e46-9f19-0ec4236a0056)
+
+### Una vez finalizado todo los pasos estamos listos para recibir commits. 
+![image](https://github.com/Kidbuut/nodejs-helloworld-api/assets/120615998/488b6d1e-b196-4730-96f8-7a942026bd01)
 
 
