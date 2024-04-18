@@ -31,9 +31,9 @@ curl http://localhost:3000
 ```
 # CI/CD
 
-### Comenzamos instalando dependecias npm
+### Comenzamos instalando dependecias npm con los siguientes comando en una terminal de linux
 
-### ### Instalar dependecias
+### Instalar dependecias
 ```bash
 npm install
 ```
