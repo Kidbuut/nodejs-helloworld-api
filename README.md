@@ -33,6 +33,26 @@ curl http://localhost:3000
 
 ### Comenzamos instalando dependecias npm
 
+### ### Instalar dependecias
+```bash
+npm install
+```
+
+### Ejecutamos la prueba
+```bash
+npm test
+```
+
+### Iniciamos el servidor
+```bash
+npm start
+```
+
+### hacemos la solitud de salida por el puerto 3000
+```bash
+curl http://localhost:3000
+```
+
 ### Instalamos Ngrok y ejecutamos el siguiente comando para que tenga salida por el puerto 80 
 ```bash
 ngrok http http//localhost:8080
