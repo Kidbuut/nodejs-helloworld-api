@@ -8,21 +8,23 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Forza el uso de Node.js 20
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # La versión 3 es compatible con Node.js 20
+        uses: actions/checkout@v3
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2  # La versión 2 es compatible con Node.js 20
+        uses: docker/setup-buildx-action@v2
 
       - name: Log in to Docker Hub
-        uses: docker/login-action@v2  # La versión 2 es compatible con Node.js 20
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v4  # La versión 4 es compatible con Node.js 20
+        uses: docker/build-push-action@v4
         with:
           context: .
           push: true
